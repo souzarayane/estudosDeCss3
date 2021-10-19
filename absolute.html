@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positio Absolute</title>
+    <style>
+         .box{
+            width: 400px;
+            height: 400px;
+            border: 5px solid black;
+            margin: 20px auto;
+            position: relative;
+        }
+        .item1, .item2{
+            width: 150px;
+            height: 150px;
+        }
+        .item1{
+            background-color: blue;
+            position: absolute;
+            bottom: 0;
+        }
+        .item2{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item1"></div>
+        <div class="item2"></div>
+    </div>
+
+    <h1>Position Absolute</h1>
+    <p>O position absolute indica que o elemento ficará em um aposição fixa em relação à página.</p>
+</body>
+</html>
